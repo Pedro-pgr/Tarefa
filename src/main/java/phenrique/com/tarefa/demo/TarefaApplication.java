@@ -73,11 +73,16 @@ public class TarefaApplication implements CommandLineRunner{
 	}
 
 	// Método para ADICIONAR tarefa
-	public void adicionar(String nome, Tarefa.Status status, String categoria,
+	public boolean adicionar(String nome, Tarefa.Status status, String categoria,
 						  LocalDate data, String descricao) {
+		if (nome != null && !nome.trim().isEmpty()) {
 		Tarefa novaTarefa = new Tarefa(proximoId++, nome, status, categoria, data, descricao);
 		tarefas.add(novaTarefa);
 		System.out.println("✓ Tarefa adicionada: " + novaTarefa);
+		return true;
+	}
+		System.out.println("✗ Falha ao adicionar tarefa: Nome é obrigatório");
+		return false;
 	}
 
 	// Método para LISTAR todas as tarefas

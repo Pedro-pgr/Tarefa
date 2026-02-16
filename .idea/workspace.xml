@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ccd0bdd-a049-47f3-b396-cdccfe62fbd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/phenrique/com/tarefa/demo/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/phenrique/com/tarefa/demo/model/Tarefa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/phenrique/com/tarefa/demo/TarefaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/phenrique/com/tarefa/demo/TarefaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/phenrique/com/tarefa/demo/modelTest/TarefaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/phenrique/com/tarefa/demo/modelTest/TarefaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/phenrique/com/tarefa/demo/Tarefa$Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/phenrique/com/tarefa/demo/Tarefa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/phenrique/com/tarefa/demo/TarefaTesteApplication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/home/henrique/Área de trabalho/projetos/demo" value="39j0RXLYzJDaK7hidqWZeoRuuwr" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="Claude Haiku 4.5" />
+      <entry key="agent-panel" value="Claude Haiku 4.5" />
+    </selectedModels>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +50,9 @@
     <commands />
     <urls />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -44,6 +63,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TarefaTest.adcionandoErroTarefa.executor": "Debug",
+    "JUnit.TarefaTest.adicionarNovaTarefa.executor": "Debug",
+    "JUnit.TarefaTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -51,8 +73,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.DemoApplication.executor": "Debug",
+    "Spring Boot.TarefaApplication.executor": "Run",
     "git-widget-placeholder": "teste",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -60,11 +84,58 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.agents.accounts",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TarefaTest">
+    <configuration name="TarefaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="phenrique.com.tarefa.demo.modelTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="phenrique.com.tarefa.demo.modelTest" />
+      <option name="MAIN_CLASS_NAME" value="phenrique.com.tarefa.demo.modelTest.TarefaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarefaTest.adcionandoErroTarefa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="phenrique.com.tarefa.demo.modelTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="phenrique.com.tarefa.demo.modelTest" />
+      <option name="MAIN_CLASS_NAME" value="phenrique.com.tarefa.demo.modelTest.TarefaTest" />
+      <option name="METHOD_NAME" value="adcionandoErroTarefa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarefaTest.adicionarNovaTarefa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="phenrique.com.tarefa.demo.modelTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="phenrique.com.tarefa.demo.modelTest" />
+      <option name="MAIN_CLASS_NAME" value="phenrique.com.tarefa.demo.modelTest.TarefaTest" />
+      <option name="METHOD_NAME" value="adicionarNovaTarefa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TarefaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="demo" />
@@ -73,6 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TarefaTest" />
+        <item itemvalue="JUnit.TarefaTest.adcionandoErroTarefa" />
+        <item itemvalue="JUnit.TarefaTest.adicionarNovaTarefa" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -90,11 +168,28 @@
       <option name="presentableId" value="Default" />
       <updated>1771194165147</updated>
       <workItem from="1771194166234" duration="4929000" />
-      <workItem from="1771263500288" duration="2746000" />
+      <workItem from="1771263500288" duration="7363000" />
+      <workItem from="1771272498704" duration="5738000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
