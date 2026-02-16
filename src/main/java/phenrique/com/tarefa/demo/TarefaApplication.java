@@ -3,6 +3,7 @@ package phenrique.com.tarefa.demo;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import phenrique.com.tarefa.demo.model.Tarefa;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

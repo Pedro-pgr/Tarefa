@@ -1,4 +1,4 @@
-package phenrique.com.tarefa.demo;
+package phenrique.com.tarefa.demo.model;
 
 import java.time.LocalDate;
 
